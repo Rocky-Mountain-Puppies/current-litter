@@ -43,10 +43,10 @@
       background-position: center;
       background-repeat: no-repeat;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
       border: 6px solid #fff;
-      padding: 20px;
+      padding: 10px;
       border-radius: 20px;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
       margin-left: 40px;
@@ -59,11 +59,12 @@
 		<!-- add to fix pic cutomff -->  
 		width: auto;
 	    max-width: 200px;
-		padding: 8px;   <!-- changes form 20px -->
-		border-radius: 10px;
+		padding: 6px;   /* Reduce internal spacing */
+		box-sizing: border-box;  /* Prevent overflow */
+	    border-radius: 4px;
 		text-align: center;
 		position: relative;
-		border: 2px solid #ccc;
+		border: 1px solid #ccc;
     }
 
     .puppy-card h2 {
