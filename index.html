@@ -27,7 +27,7 @@
     .puppy-card { background: #ffffff; border: 1px solid #99ccff; padding: 15px; margin: 10px 0; border-radius: 8px; }
     footer { background: #3399ff; text-align: center; padding: 10px; color: white; }
 	
-	    body {
+	body {
       margin: 0;
       font-family: Arial, sans-serif;
       overflow-x: hidden;
@@ -41,7 +41,7 @@
     }
 
     .puppy-grid {
-      background-image: url('images/mountains.jpg'); /* Only applies to grid */
+      <!-- background-image: url('images/mountains.jpg'); /* Only applies to grid */ -->
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -60,7 +60,10 @@
 	 .puppy-card {
 		background-color: rgba(255, 255, 255, 0.85);
 		color: #333;
-		padding: 20px;
+		<!-- add to fix pic cutomff -->  
+		width: auto;
+	    max-width: 200px;
+		padding: 10px;   <!-- changes form 20px -->
 		border-radius: 10px;
 		text-align: center;
 		position: relative;
