@@ -112,26 +112,27 @@
 		color: white;	
 	}
 
-  /* Make all text inside pedigree section white */
-  .pedigree {
-    background-color: #333; /* dark background for contrast */
-    color: white;           /* force text to white */
-    padding: 20px;
-    border-radius: 8px;
+<style>
+  /* Force all text inside pedigree section to white */
+  .pedigree, 
+  .pedigree h2, 
+  .pedigree h3, 
+  .pedigree p, 
+  .pedigree li, 
+  .pedigree strong {
+    color: white;
   }
 
   /* Make the Facebook link red */
   .pedigree .fb-link {
     color: red;
     font-weight: bold;
-    text-decoration: none; /* remove underline */
+    text-decoration: none;
   }
 
-  /* Optional hover effect */
   .pedigree .fb-link:hover {
     text-decoration: underline;
   }
-
 
 
 	  
@@ -264,7 +265,6 @@
   <p>Phone: (970)344-9573</p>
 </section>
 
-
 <section aria-labelledby="Pedigree" class="pedigree">
   <h2 id="lineage-title">Puppy Pedigree</h2>
   <div class="parents">
@@ -285,6 +285,9 @@
     </ul>
   </div>
 </section>
+
+
+
 
 
 
